@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #ffffff;
+  font-family: 'Jost', serif;
+}
+
+h1 {
+  font-size: 69px;
+  line-height: 160%;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1920px;
+  background-color: #141024;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 160%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  margin-top: 38px;
+}
+
+.header li {
+  font-size: 20px;
+  line-height: 160%;
+  margin-left: 40px;
+}
+
+.phone {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 160%;
+  margin: 30px 100px;
+}
+
+.title-card {
+  background-color: #141024;
+  display: flex;
+  justify-content: center;
+}
+
+.title-card-text {
+  font-size: 20px;
+  line-height: 160%;
+  margin-top: 266px;
+  width: 525px;
+  height: 350px;
+  /* border: 2px solid #00ffff; */
+}
+
+.title-card-text p {
+  margin-top: 20px;
+  max-width: 480px;
+}
+
+.button-order-course {
+  width: 260px;
+  height: 79px;
+  margin-top: 50px;
+  border: 10px solid #d52027;
+  border-radius: 5px;
+  background-color: #d52027;
+  line-height: 160%;
+  font-size: 18px;
+  text-align: center;
+  align-content: center;
+}
+
+.title-card-image {
+  width: 783px;
+  height: 917px;
+  margin-left: 28px;
+  display: flex;
+  justify-content: center;
+}
+
+.ellipse {
+  border: 80px solid #ffffff;
+  width: 783px;
+  height: 783px;
+  border-radius: 783px;
+  position: absolute;
+  z-index: 0;
+  box-sizing: border-box;
+}
+
+.smiling-girl-logo {
+  position: absolute;
+  z-index: 1;
+}
+
+.course-description {
+  color: #141024;
+}
+
+.course-description {
+  max-width: 1160px;
+  margin-top: 120px;
+  margin-left: 380px;
+}
+
+.course-description p {
+  width: 891px;
+  font-size: 30px;
+  line-height: 160%;
+  color: #141024;
+}
+
+.course-description-bold {
+  font-weight: 500;
+}
+
+.course-description ul {
+  list-style: none;
+}
+
+.list-description {
+  display: flex;
+  max-width: 1160px;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.list {
+  display: flex;
+  flex-flow: column;
+}
+
+.list-num-bold {
+  font-size: 70px;
+  font-weight: 600;
+  color: #d52027;
+}
+
+.list-text {
+  width: 260px;
+  font-size: 18px;
+  line-height: 160%;
+  color: #141024;
+}
